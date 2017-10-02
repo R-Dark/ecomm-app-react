@@ -1,0 +1,40 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(27deg, #ffffff 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #ffffff 7px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #ffffff 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #ede5e5 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #ffffff 18px, transparent 10px),
+    linear-gradient(
+      #ffffff 25%,
+      #ece6e6 25%,
+      #ffffff 50%,
+      transparent 50%,
+      transparent 75%,
+      #e2dddd 75%,
+      #ffffff
+    );
+  background-color: #ffffff;
+  background-size: 20px 20px;
+}
+
+.content-box {
+  background-color: rgb(245, 244, 246);
+  margin-top: 10%;
+  margin-bottom: 13.3%;
+  padding: 100px 210px;
+  border-radius: 2%;
+}
+
+.home-button {
+  padding-top: 184px;
+  width: 300px;
+  margin: auto;
+}
+
+.circle-home {
+  margin-top: 2%;
+  margin-bottom: 3.7%;
+}

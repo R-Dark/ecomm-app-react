@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(27deg, #ffffff 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #ffffff 7px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #ffffff 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #ede5e5 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #ffffff 18px, transparent 10px),
+    linear-gradient(
+      #ffffff 25%,
+      #ece6e6 25%,
+      #ffffff 50%,
+      transparent 50%,
+      transparent 75%,
+      #e2dddd 75%,
+      #ffffff
+    );
+  background-color: #ffffff;
+  background-size: 20px 20px;
+  color: rgb(85, 83, 84);
+}
+.App {
+  text-align: center;
+}
+
+header a {
+  margin-left: 1.4rem;
+  margin-top: 1.4rem;
+  margin-right: 1.4rem;
+  color: rgb(241, 233, 240);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: rgb(210, 212, 214);
+}
+
+header a:active {
+  text-decoration: none;
+  color: #fc236e;
+}
