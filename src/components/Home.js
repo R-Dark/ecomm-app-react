@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
 import "../styles/Home.css";
-import backgroundImage from "../backgroundImage.jpg";
 import { Link } from "react-router-dom";
 import RaisedButtonExampleSimple from "./Button";
 import PaperExampleCircle from "./CircleHome";

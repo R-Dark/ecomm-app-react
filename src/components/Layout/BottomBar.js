@@ -29,15 +29,15 @@ class BottomNavigationExampleSimple extends Component {
       <Paper zDepth={1}>
         <BottomNavigation selectedIndex={this.state.selectedIndex}>
           <BottomNavigationItem
-            icon={<i class="material-icons md-36">search</i>}
+            icon={<i className="material-icons md-36">search</i>}
             onClick={() => this.select(0)}
           />
           <BottomNavigationItem
-            icon={<i class="material-icons">favorite_border</i>}
+            icon={<i className="material-icons">favorite_border</i>}
             onClick={() => this.select(1)}
           />
           <BottomNavigationItem
-            icon={<i class="material-icons">forum</i>}
+            icon={<i className="material-icons">forum</i>}
             onClick={() => this.select(2)}
           />
         </BottomNavigation>

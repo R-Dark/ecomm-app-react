@@ -42,3 +42,35 @@ header a:active {
   text-decoration: none;
   color: #fc236e;
 }
+
+#email-div {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f6f5f5;
+  margin-top: 100px;
+  margin-bottom: 130px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 174px;
+}
+.emaildiv2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stylebar {
+  background-color: #2a333b;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: rgb(245, 69, 237);
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}

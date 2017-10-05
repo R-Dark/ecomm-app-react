@@ -12,7 +12,7 @@ const RaisedButtonExampleSimple = () => (
       <RaisedButton
         label=" --- SHOP HTC VIVE --- "
         fullWidth={true}
-        secondary={true}
+        primary={true}
       />
     </Link>
     <br />
@@ -22,6 +22,10 @@ const RaisedButtonExampleSimple = () => (
         label=" --- SHOP OCCULUS RIFT --- "
         fullWidth={true}
         primary={true}
+        style={{
+          width: "100%",
+          margin: "0 auto"
+        }}
       />
     </Link>
     <br />
@@ -30,7 +34,7 @@ const RaisedButtonExampleSimple = () => (
       <RaisedButton
         label=" --- VR TECH BLOG --- "
         fullWidth={true}
-        secondary={true}
+        primary={true}
       />
     </Link>
   </div>

@@ -38,3 +38,17 @@
   margin-top: 2%;
   margin-bottom: 3.7%;
 }
+
+.signIn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 12%;
+  background-color: rgb(245, 244, 246);
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.signIn-div h2 {
+  margin-left: 33%;
+  font-size: 2rem;
+}
